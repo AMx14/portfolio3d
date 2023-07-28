@@ -11,9 +11,8 @@ const App = () => {
           <Hero />
         </div>
         <About />
-        <Experience />
-        <Tech />
         <Works />
+        <Tech />
         
         <div className='relative z-0'>
           <Contact/>
@@ -25,3 +24,4 @@ const App = () => {
 }
 
 export default App;
+//<Experience />
