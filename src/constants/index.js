@@ -3,16 +3,6 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
   meta,
   starbucks,
   tesla,
@@ -20,6 +10,11 @@ import {
   carrent,
   jobit,
   tripguide,
+  Cplusplus,
+  figma,
+  Java,
+  git,
+  javascript,
   threejs,
 } from "../assets";
 
@@ -59,50 +54,29 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",
     icon: git,
   },
-
+  {
+    name: "figma",
+    icon: figma,
+  },
+  {
+    name: "threejs",
+    icon: threejs,
+  },
+  {
+    name: "Java",
+    icon: Java,
+  },
+  {
+    name: "C++",
+    icon: Cplusplus,
+  },
 ];
 
 const experiences = [
@@ -247,6 +221,36 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/",
   },
+    /* {
+        name: "High School Diploma",
+        description: "The International School of Choueifat",
+        date: "September 2019 - June 2022",
+        tags: [],
+        image: ISC_Dubai,
+        image2: sabis,
+        source_code_link: "https://iscdubai.sabis.net/"
+    },
+
+    {
+        name: "BSc Computer Science",
+        description:
+            "The American University of Sharjah",
+        date: "September 2022 - Present",
+        tags: [],
+        image: aus_big,
+        image2: AUS,
+        source_code_link: "https://www.aus.edu/",
+    },
+    {
+        name: "Fundamentals of Digital Marketing",
+        description:
+            "Google Skillshop-(Google Garage)",
+        date: "December 2022 - January 2023",
+        tags: [],
+        image: Google_Skill,
+        image2: Google,
+        source_code_link: "https://www.aus.edu/",
+    },*/
 ];
 
 export { services, technologies, experiences, testimonials, projects };
